@@ -27,8 +27,8 @@ class MySuperBot extends TelegramLongPollingBot {
             else {
                 sendMessage(chatId, "I don't understand!");
             }
-        } catch (Exception e) {
-            System.out.println(e);
+        } catch (TelegramApiException e) {
+            System.out.println(e); {e.printStackTrace};
         }
     }
 
