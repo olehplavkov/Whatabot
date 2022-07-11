@@ -1,4 +1,5 @@
 package academy.prog;
+javac main.java --class-path
 
 import org.telegram.telegrambots.bots.*;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
